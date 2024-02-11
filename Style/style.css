@@ -9,12 +9,17 @@ font-family: 'Dancing Script', cursive;
     html{
         font-size:15px;
     }
+    a.btn {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
 
 @media (max-width:400px) {
     html{
-        font-size:10px;
+        font-size:12px;
+    }
+    a.btn {
+        padding-left: 10%;padding-right: 10%;
     }
 }
-
-
